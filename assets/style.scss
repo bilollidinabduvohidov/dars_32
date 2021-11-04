@@ -1,0 +1,40 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+a{
+    display: inline-block;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+.nav-list{
+    display: flex;
+    .nav-item{
+        display: block;
+        .nav-link{
+            margin: 10px;
+        }
+    }
+}
+
+.box-item{
+    border: {
+        solid: 10px black;
+        radius: 5px;
+    }
+
+    background: {
+        position: center;
+        size: 20px;
+    };
+
+    &-item{
+        display: block;
+    }
+}
+
+$size: 10px;
+
